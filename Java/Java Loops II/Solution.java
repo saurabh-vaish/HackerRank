@@ -43,7 +43,8 @@ class Solution{
             int calc = a;
             for(int j=0;j<n;j++)
             {
-                calc+=(Math.pow(2,j)*b);
+                double d = Math.pow(2,j);
+                calc+=((int)d)*b;
                 System.out.print(calc+" ");
             }
             System.out.println();
